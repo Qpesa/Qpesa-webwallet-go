@@ -110,11 +110,11 @@
           {{ if (index $ele "Destination") }}
           <td><b>Withdrawal</b><br></td>
           <td><b>Recipient</b><br>{{ index $ele "Destination" }}<br><b>Hash</b><br>{{ index $ele "Hash" }}<br><b>PaymentId</b><br>"{{ index $ele "PaymentID"}}"</td>
-          <td><b>Amount</b><br>{{ index $ele "Amount" }}&nbsp;TRTL</td>
+          <td><b>Amount</b><br>{{ index $ele "Amount" }}&nbsp;QPSA</td>
           {{ else }}
           <td><strong>Deposit</strong></td>
           <td><b>Hash</b><br>{{ index $ele "Hash" }}<br><b>PaymentId</b><br>"{{ index $ele "PaymentID"}}"</td>
-          <td><b>Amount</b><br>{{ index $ele "Amount" }}&nbsp;TRTL</td>
+          <td><b>Amount</b><br>{{ index $ele "Amount" }}&nbsp;QPSA</td>
           {{ end }}
         </tr>
         {{ end }}
