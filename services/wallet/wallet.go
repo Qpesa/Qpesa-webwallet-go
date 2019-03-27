@@ -25,9 +25,9 @@ var (
 )
 
 // Forking config.
-var addressFormat = "^TRTL([a-zA-Z0-9]{95}|[a-zA-Z0-9]{183})$"
-var divisor float64 = 100 // This is 100 for TRTL
-var transactionFee = 10 // This is 10 for TRTL
+var addressFormat = "^QPSA([a-zA-Z0-9]{95}|[a-zA-Z0-9]{183})$"
+var divisor float64 = 100000000 // This is 100000000 for QPSA
+var transactionFee = 100000 // This is 0.001 for TRTL
 
 func init() {
 	var err error
